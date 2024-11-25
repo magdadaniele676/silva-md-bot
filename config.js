@@ -11,14 +11,14 @@ const ownervb = process.env.OWNERS || "254743706010"
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
-for (let i = 0; i < ownerlist.length; i += 2) {
+global.owner = [papi mike];
+for (let i = 0; i < ownerlist.length; i += 6) {
     const owner = [
         ownerlist[i],            
         ownerlist[i + 1],         
         true                        
     ];
-    global.owner.push(owner);
+    global.owner.push(mike);
 }
 
 //global.pairingNumber = "" //put your bot number here
@@ -84,10 +84,10 @@ global.thumb = fs.readFileSync('./jusorts/sylivanus.jpg')
 
 global.wait = '*⌛ _SILVA MD ANALYSING..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
-global.dmoji = '🤭'
+global.dmoji = '🙂'
 global.done = '✅'
-global.error = '❌'
-global.xmoji = '🔥'
+global.error = '💔'
+global.xmoji = '✨'
 
 global.multiplier = 69
 global.maxwarn = '3'
